@@ -1,0 +1,52 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500;800&family=Montserrat:wght@100;300;400;500;600;800;900&display=swap');
+
+body {
+    background-color: #d7d7d7;
+    color: black;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201012/pngtree-white-cloud-on-blue-sky-weather-background-image_410050.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.container{
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#citys{
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+main{
+    min-height: calc(100vh - 55px);
+    padding-top: 50px;
+    margin: auto;
+    max-width: 800px;
+}
+
+footer{
+    margin-bottom: 0px;
+    margin-top: auto;
+    position: relative;
+    text-align: center;
+}
